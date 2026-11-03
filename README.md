@@ -17,8 +17,8 @@ A three-page Power BI dashboard that tracks Nike's share price, revenue and prof
 5. [Key Findings](#5-key-findings)
 6. [Data Notes and Limitations](#6-data-notes-and-limitations)
 7. [Dashboard Preview](#7-dashboard-preview)
-8. [Repository Structure](#8-repository-structure)
-9. [How to Open the Report](#9-how-to-open-the-report)
+<!-- 8. [Repository Structure](#8-repository-structure) -->
+8. [How to Open the Report](#8-how-to-open-the-report)
 
 ---
 
@@ -188,23 +188,25 @@ These are descriptive results. The dashboard shows what happened, not why.
 - **Peer coverage is three companies.** Findings about "the sector" rest on Adidas and Puma only.
 - **Price snapshot date.** The dashboard cards reflect closes up to 16 October 2026. Refreshing the report after loading a later `Prices.csv` will change the Latest Close and Drop from Peak values.
 
-<!-- ---
+---
 
 ## 7. Dashboard Preview
 
 **Page 1: Market performance**
 
-![Page 1](images/page1_market_performance.png)
+![Page 1](dashboard/dashboard-page-1.png)
 
 **Page 2: Revenue and segment performance**
 
-![Page 2](images/page2_revenue_segments.png)
+![Page 2](dashboard/dashboard-page-2.png)
 
 **Page 3: Nike vs rivals**
 
-![Page 3](images/page3_nike_vs_rivals.png)
+![Page 3](dashboard/dashboard-page-3.png)
 
 ---
+
+<!--
 
 ## 8. Repository Structure
 
@@ -232,7 +234,7 @@ nike-market-performance-analysis/
 
 --- -->
 
-## 7. How to Open the Report
+## 8. How to Open the Report
 
 1. Clone the repository.
 2. Open the `.pbix` file in Power BI Desktop.
